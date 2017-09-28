@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/img/background.png) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+.main_div{
+	float: left;
+	width: 750px;
+/*	height: 78vh;*/
+	overflow:auto;
+}
+
+.parent{
+	margin: 0 auto;
+    width: 730px;
+    overflow: hidden;
+}
+
+*:focus:not(.form){
+    outline: none !important;
+    color: white !important; 
+}
+
+.add_task:hover{
+    cursor: pointer;
+}
+
+.task_inp:hover{
+    cursor: pointer;
+}
+
+.ch:hover{
+    cursor: pointer;    
+}
+
+td:last-child:hover{
+	cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: -o-grab;
+    cursor: grab
+}
+
+td:last-child:active{
+	cursor: grab;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: -o-grabbing;
+    cursor: grabbing;
+}
+
+tr:hover{
+    background-color: #FCFED5;
+    cursor: pointer;
+}
+
+.asd{
+    text-align: center;
+	margin-top: 10px;
+}
+
+.task_div{
+    margin-bottom: 25px;
+    width: 730px;
+    border: 1px solid #B6B4AB;
+}
+
+.task_header{
+    border: 1px solid #315589;
+    padding: 12px 20px 7px 20px;
+    height: 50px;
+    background-image: url(/img/todo-header.png);
+}
+
+.task_header>img{
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+
+.task_text{
+    width: 603px;
+    background-color: transparent;
+    background-image: url(/img/edit.png);
+    background-repeat: no-repeat;
+    background-position: right, right;
+    border: none;
+    line-height: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.task_text:hover{
+    cursor: pointer;
+}
+
+.task_header>button{
+    padding-bottom: 5px;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.cent{
+    line-height: 25px;
+    float:right;
+    margin-bottom: 19px;
+    color: #99B0D2;
+    font-size: 20px;
+}
+
+.input_div{
+    height: 50px;
+    border: 1px solid #B6B4AB;
+    background-color: #D2D2D2;
+    background-image: linear-gradient(#E7E7E5, #CECECE);
+    
+}
+.input_div>img{
+    height: 30px;
+	float: left;
+	margin: 8px 10px 0px 10px;
+	vertical-align: middle;
+}
+.input_text{
+	display: inline-block;
+	width: 650px;
+    
+}
+
+.form{
+    border-top: 2px solid #A7A7A7 !important;
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.input-group>span{
+    color: white;
+    width: 110px;
+    background-image: linear-gradient(#8DC4A7, #52896A);
+    border: 2px solid #A7A7A7;
+    border-bottom: none;
+    border-radius: 0px 10px 10px 0px;
+    text-shadow: 0px 1px 0px black;
+    font-weight:bold;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+	background-color: white;
+}
+
+td{
+    height: 34px;
+    border: 1px solid #A7A7A7;    
+}
+
+tbody>tr:not(:last-child){
+    border-bottom: 1px solid #e7ebea;
+}
+
+tbody>tr:last-child>td:first-child{
+    border-bottom: 1px solid #e7ebea;
+    border: 1px solid #A7A7A7;
+/*    border-bottom-left-radius: 10px;*/
+}
+
+tbody>tr:last-child>td:last-child{
+    border-bottom: 1px solid #e7ebea;
+    border: 1px solid #A7A7A7;
+}
+
+td:not(:first-child){
+    padding-left: 15px;
+    
+}
+
+td>span{
+    margin-left: 20px;
+    display: none;
+}
+
+td>span>span{
+    color: #DDDDCF;
+}
+
+.btn_add_div{
+    text-align: center;
+}
+
+td>input{
+    background-color: transparent;
+    border: none;
+}
+
+.task_inp:focus{
+    color: black !important;
+}
+
+.btn_add_list{
+    background-image: url(/img/todo-header.png)  !important;
+    background-repeat: round;
+    color: white;
+    font-weight: bold !important;    
+}
+
+.btn_add_div{
+	width: 100%;
+	text-align: center;
+	position:fixed;
+    bottom:30px;
+}
+	
+footer *{
+	margin: 0 !important;
+	font-size: 10px;
+}
+
+footer{
+    width: 100%;
+	padding-right: 25px;
+    text-align: right;
+	background-color: transparent !important;
+    position:fixed;
+    bottom:0;
+};
